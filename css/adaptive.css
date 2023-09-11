@@ -1,0 +1,461 @@
+
+@media only screen and (max-width: 450px) {
+    :root {
+        --grayscale_00: #000000;
+        --grayscale_01: #181818;
+        --grayscale_02: #444444;
+        --grayscale_03: #b9b9b9;
+        --grayscale_04: #cfcfcf;
+        --grayscale_05: #e4e4e4;
+        --grayscale_06: #f5f5f5;
+        --grayscale_07: #ffffff;
+
+        --primary_00: #7b31d4;
+        --primary_01: #954ced;
+        --primary_02: #a64ced;
+        --primary_03: #ba8bf3;
+        --primary_04: #954ced33;
+
+        --secondary_01: #2fdbbc;
+        --secondary_02: #ffaa4c;
+        --secondary_03: #c1db2f;
+
+        --additional_01: #ff6c2d;
+        --additional_02: #ec1211;
+    }
+
+    .plan {
+        padding: 0;
+    }
+    .plan__link  {
+        width: 100%;
+        font-size: 4.5vw;
+        text-align: center;
+        border-radius: 20px 20px 0 0;
+    }
+
+    .header {
+        padding: 0;
+    }
+
+    .logo a {
+        font-size: 7vw;
+    }
+
+    .logo img {
+        margin-left: 10px;
+    }
+
+    .header .button {
+        display: none;
+    }
+
+    .button__burger {
+        display: block;
+        background-color: transparent;
+        padding: 10px;
+        border: none;
+        margin: auto 3vw auto 0;
+    }
+
+    .button__burger img {
+        height: 20px;
+    }
+
+    .menu__dialog {
+        width: 100vw;
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        background-color: var(--grayscale_01);
+        border: none;
+        padding: 9vh 0;
+        padding-left: 6vw;
+        margin: auto;
+    }
+
+    .menu__dialog .button {
+        width: calc(100% - 5vw);
+    }
+
+    dialog#menu__dialog::backdrop  {
+        background-color: #181818;
+    }
+
+    .menu li {
+        list-style-type: none;
+        font-weight: 500;
+        font-size: 2.3vh;
+        padding: 0.6rem 0;
+    }
+
+    .menu li a {
+        color: var(--grayscale_07);
+    }
+
+    .hero__description {
+        margin: 0;
+        padding: 6vw 0 0 6vw;
+        background-color: transparent;
+        margin-top: 5vh;
+    }
+
+    .hero__description h1 {
+        font-size: 10vw;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 106%;
+        color: var(--grayscale_07);
+        margin-bottom: 0;
+    }
+
+    .hero__description p {
+        font-size: 5vw;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 120%;
+        width: 92vw;
+        margin-bottom: 2.5rem;
+        color: var(--grayscale_07);
+    }
+
+    .hero__description button {
+        width: calc(100% - 6vw);
+    }
+
+    .hero__gap {
+        display: none;
+    }
+
+    .hero__right svg {
+        width: 70vw;
+        height: auto;
+        bottom: 0;
+    }
+
+    .hero__right img {
+        bottom: 0;
+        height: 70vw;
+    }
+
+    .about {
+        height: auto;
+    }
+
+    .about h1 {
+        font-size: 3rem;
+    }
+    
+    .about__left__text {
+        max-width: 75%;
+        font-size: 1.6rem;
+    }
+
+    .about__left img {
+        display: none;
+    }
+
+    .about__content__sides {
+        flex-direction: column;
+    }
+
+    .about__right {
+        display: flex;
+        flex-direction: column;
+        margin-left: 5vw;
+    }
+
+    .about__right__cell {
+        max-width: fit-content;
+    }
+
+    .about__right__cell svg {
+        height: 130px;
+        width: 130px;
+    }
+
+    .about__right__cell h1 {
+        font-size: 9vw;
+    }
+
+    .about__right__cell p {
+        font-size: 4.5vw;
+    }
+
+    .statistics {
+        flex-direction: column;
+    }
+
+    .statistics div {
+        max-width: fit-content;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-left: 5vw;
+        padding-right: 5vw;
+    }
+
+    .statistics h1 {
+        font-size: 2.5rem;
+        margin: 0;
+    }
+
+    .statistics p {
+        margin-left: 1.6rem;
+        font-size: 1.35rem;
+    }
+
+    .why__budss h1 {
+        font-size: 3.3rem;
+    }
+
+    .why__budss p {
+        font-size: 1.7rem;
+    }
+
+    .why__budss__card {
+        display: flex;
+        flex-direction: column;
+    }
+    #c { max-width: fit-content; }
+
+    .cell__text {
+        width: auto;
+        max-width: fit-content;
+        margin: 0;
+    }
+
+    #a .cell__text {
+        margin: 0;
+    }
+
+    #a .cell__text, #d .cell__text {
+        width: auto;
+    }
+
+    .cell__text h1 {
+        font-size: 8vw;
+        font-weight: 700;
+    }
+
+    .cell__text p {
+        font-size: 4.4vw;
+        max-width: fit-content;
+    }
+
+    .cell {
+        padding: 5vw;
+    }
+
+    #vector {
+        display: none;
+    }
+
+    #vector__adaptive {
+        height: 50%;
+        display: block;
+    }
+
+    .cell__icons img {
+        position: absolute;
+        bottom: 0;
+    }
+
+    .cell__icons img.cell__icons__smartphone {
+        left: 7vw;
+        height: 65%;
+        bottom: -50px;
+        transform: rotate(-15deg);
+    }
+
+    .cell__icons__star-1 {
+        top: 50%;
+        left: 60%;
+        height: 5%;
+    }
+    
+    .cell__icons__star-2 {
+        top: 56%;
+        left: 53%;
+        height: 8%;
+    }
+
+    .cell__icons__pack img:nth-child(1) {
+        left: 4vw;
+        height: 19vw;
+    }
+    
+    .cell__icons__pack img:nth-child(2) {
+        right: 24vw;
+        height: 26vw;
+    }
+    
+    .cell__icons__pack img:nth-child(3) {
+        right: 0;
+        bottom: 5vh;
+        height: 38vw;
+    }
+
+    .cell__icons__cashback {
+        right: 0;
+        width: 60vw;
+    }
+
+    .cell__icons img.cell__icons__gamification {
+        height: 51vw;
+        right: 18vw;
+        bottom: -3vh;
+    }
+
+    .brands__header h1 {
+        font-size: 2.8rem;
+        text-align: center;
+    }
+
+    .brands {
+        margin: 5vh 0;
+    }
+
+    .brands__info {
+        margin: 5vh 5vw;
+        flex-direction: column;
+    }
+
+    .brands__info__text {
+        max-width: fit-content;
+    }
+
+    .brands__info__text h1 {
+        font-size: 10vw;
+    }
+
+    .brands__info__text p {
+        font-size: 1.3rem;
+        max-width: 90%;
+    }
+
+    .brands__info__logos {
+        max-width: fit-content;
+        padding: 0;
+        margin-top: 4vh;
+    }
+
+    .brands__info__logos div {
+        width: 20vw;
+        height: 20vw;
+    }
+
+    .brands__list {
+        display: inline-block;
+        /* display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center; */
+        padding: 0;
+    }
+
+    .brands__list img {
+        transform: scale(0.7);
+        padding: auto;
+    }
+
+    .footer {
+        padding: 5vw;
+        width: 100%;
+        background-color: var(--grayscale_01);
+    }
+
+    .footer__nav {
+        flex-direction: column;
+        align-items: start;
+        justify-content: start;
+    }
+
+    .footer__plan {
+        display: flex;
+        flex-direction: column;
+        gap: 2vh;
+        padding: 5vh 0;
+    }
+
+    .footer__plan .footer__copyright__privacy {
+        display: flex;
+        flex-direction: column;
+        gap: 2vh;
+    }
+
+    .footer__plan .footer__copyright__privacy a {
+        text-decoration: none;
+    }
+
+    .footer__links {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .footer__links button {
+        margin-bottom: 2vh;
+    }
+
+    .footer__copyright .footer__copyright__privacy {
+        display: none;
+    }
+
+    .cookies__dialog {
+        padding: 8vw 7vw;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        border: none;
+        border-radius: 25px;
+        position: fixed;
+        margin: 2vw;
+        z-index: 10;
+        bottom: 0;
+        display: none;
+    }
+
+    .cookies__buttons {
+        display: block;
+        margin-right: 1rem;
+    }
+
+    .cookies__buttons button {
+        width: 100%;
+        margin: 2vh 0 0.1vh 0;
+    }
+
+    .cookies__dialog p {
+        width: 100%;
+        font-size: 1.4rem;
+        font-weight: 300;
+        margin-bottom: 2vh;
+    }
+
+    .dialog__close {
+        top: 10px;
+        right: 10px;
+    }
+
+    .dialog {
+        padding: 7vw 5vw 5vw 5vw;
+    }
+
+    .super__info img {
+        height: 60vw;
+    }
+
+    .super__info h1 {
+        font-size: 2rem;
+    }
+
+    .super__info p {
+        font-size: 1.4rem;
+    }
+
+    #super__dialog {
+        padding: 12vw;
+    }
+}
